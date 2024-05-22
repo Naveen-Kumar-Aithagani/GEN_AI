@@ -1,0 +1,63 @@
+{
+    "departments": [
+      {
+        "id": 1,
+        "name": "Computer Science",
+        "head": "Dr. Alice Smith",
+        "years": [
+          {
+            "id": 1,
+            "description": "First Year",
+            "students": [
+              {
+                "id": 101,
+                "name": "John Doe",
+                "age": 18
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "description": "Second Year",
+            "students": [
+              {
+                "id": 102,
+                "name": "Jane Doe",
+                "age": 19
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Electrical Engineering",
+        "head": "Dr. Bob Johnson",
+        "years": [
+          {
+            "id": 1,
+            "description": "First Year",
+            "students": [
+              {
+                "id": 201,
+                "name": "Emily Clark",
+                "age": 18
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "description": "Second Year",
+            "students": [
+              {
+                "id": 202,
+                "name": "Michael Brown",
+                "age": 19
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

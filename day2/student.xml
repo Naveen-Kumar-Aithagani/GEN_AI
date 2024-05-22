@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>101</id>
+        <name>Naveen</name>
+        <age>20</age>
+        <department>Computer Science</department>
+        <year>Second Year</year>
+    </student>
+    <student>
+        <id>102</id>
+        <name>Abhi</name>
+        <age>21</age>
+        <department>Electrical Engineering</department>
+        <year>Third Year</year>
+    </student>
+    <student>
+        <id>103</id>
+        <name>Phani</name>
+        <age>19</age>
+        <department>Mechanical Engineering</department>
+        <year>First Year</year>
+    </student>
+</students>

@@ -1,0 +1,26 @@
+{
+    "students": [
+      {
+        "id": 101,
+        "name": "Naveen",
+        "age": 20,
+        "department": "Computer Science",
+        "year": "Second Year"
+      },
+      {
+        "id": 102,
+        "name": "Abhi",
+        "age": 21,
+        "department": "Electrical Engineering",
+        "year": "Third Year"
+      },
+      {
+        "id": 103,
+        "name": "phani",
+        "age": 19,
+        "department": "Mechanical Engineering",
+        "year": "First Year"
+      }
+    ]
+  }
+  
