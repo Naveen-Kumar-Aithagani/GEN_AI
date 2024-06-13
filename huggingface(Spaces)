@@ -1,2 +1,24 @@
-Streamlit is a Python library for creating web apps. 
-Hugging Face Spaces hosts and shares these apps with the AI community.
+// A RANDOM JOKE GENERATOR
+
+import streamlit as st
+import requests
+
+def get_random_joke():
+    response = requests.get("https://official-joke-api.appspot.com/random_joke")
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return None
+
+def main():
+    st.title("Random Joke Generator")
+
+    if st.button("Get a Random Joke"):
+        joke = get_random_joke()
+        if joke:
+            st.write(f"{joke['setup']} - {joke['punchline']}")
+        else:
+            st.write("Failed to fetch a joke.")
+
+if __name__ == "__main__":
+    main()
